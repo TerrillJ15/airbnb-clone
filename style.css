@@ -61,7 +61,6 @@ h3 {
   text-align: center;
 }
 .main-img {
-  width: 100%;
   border-radius: 10px;
 }
 
@@ -71,10 +70,10 @@ h3 {
   font-size: 16px;
 }
 .latest-news img {
-  width: 100px;
-  height: 100px;
   border-radius: 10px;
   margin-bottom: 30px;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 .latest-news a {
   color: black;
@@ -124,20 +123,12 @@ h3 {
   padding-right: 10px;
 }
 .categories-teaser img {
-  width: 100%;
   border-radius: 20px;
-}
-.categories-article {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .categories-article a {
   color: black;
   font-weight: 500;
   font-size: 18px;
-}
-.categories-article p {
-  padding-bottom: 30px;
 }
 
 /* Footer */
